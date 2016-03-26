@@ -1,0 +1,47 @@
+============================================================================
+IE9 scrolling fix: https://github.com/smashingboxes/OwlCarousel2/issues/482
+============================================================================
+
+Attention! This theme uses a OWL Carousel develop files (not master files as usual) to fix IE9 scrolling issues.
+
+
+
+
+CSS:
+--------
+
+owl.carousel.css
+owl.theme.default.css
+owl.carousel.plugins.css
+
+
+Plugin file includes:
+
+owl.animate.css
+owl.autoheight.css
+owl.lazyload.css
+owl.video.css
+
+
+
+JS:
+--------
+
+owl.carousel.js
+owl.carousel.plugins.js
+
+
+Plugin file includes:
+
+owl.support.js
+owl.lazyload.js
+owl.autoheight.js
+owl.video.js
+owl.animate.js
+owl.autoplay.js
+owl.navigation.js
+owl.hash.js
+owl.autorefresh.js
+
+
+
