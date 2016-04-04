@@ -51,8 +51,6 @@
 
     <body>
 
-        <!-- Page preloader (display loading animation while page loads) -->
-        <div id="preloader"><div class="pulse"></div></div>
 
         <!-- Begin page borders -->
         <div class="border-top"></div>
@@ -67,7 +65,7 @@
         ////////////////////////////// -->
 
         <header class="is-fixed">
-            <a id="cd-logo" href="index.html"><img src="" alt="image"></a>
+            <a id="cd-logo" href="index.html"><img src="img/logo.png" alt="image"></a>
             <nav id="cd-top-nav">
                 <!-- <ul>
                     <li><a href="index.html">Home</a></li>
@@ -134,18 +132,16 @@
             <section id="section-intro" class="intro-parallax full-height">
 
                 <!-- Element background image (parallax) -->
-                <div class="full-cover bg-image" data-stellar-ratio="0.2" style="background-image: url();"></div>
+                <div class="full-cover bg-image" data-stellar-ratio="0.2" style="background-image: url(./img/landing-bg.jpg);"></div>
 
                 <!-- Element cover -->
                 <div class="cover"></div>
 
                 <!-- Intro caption -->
-                <div class="intro-caption text-white" data-stellar-ratio="0.6">
-                    <h1><span class="bg-main text-white">ex't</span> cepteur,<br>
-                        sint occaecat,<br>
-                        cupid proident.
+                <div class="intro-caption text-white" data-stellar-ratio="0.3">
+                    <h1>Rushania<span style="color:#F20000";>Roy</span>
                     </h1>
-                    <p>ute enim ad venim.</p>
+                    <p>Web Developer. Graphic Designer</p>
                 </div>
 
                 <!-- Made with love :) -->
@@ -174,8 +170,7 @@
                                     <img src="img/portfolio/portfolio-heading-img.jpg" alt="image">
                                     <!-- Begin Heading -->
                                     <div class="heading heading-md align-center">
-                                        <h1><span class="bg-main text-white">P</span>ortfolio</h1>
-                                        <p>see the entire portfolio <i class="fa fa-arrow-right"></i></p>
+                                        <h1>Projects</h1>
                                     </div>
                                     <!-- End Heading -->
                                 </div>
@@ -188,11 +183,8 @@
                                 <div class="box-inner">
                                     <a href="#portfolio-1" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-1.jpg" alt="image">
-                                    <div class="caption align-center">
-                                        <img src="img/portfolio/caption-img/1.png" alt="image">
-                                    </div>
-                                    <h3 class="entry-count"># 01</h3>
+                                    <img class="thumbnail" src="img/portfolio/portfolio-img-2.jpg" alt="image">
+                                   <h3 class="entry-count"># 01</h3>
                                 </div>
 
                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
@@ -200,7 +192,7 @@
                   <div class="inline-popup-inner">
                     <div class="row">
                       <div class="col-md-12">
-                        <img class="thumbnail margin-bottom-40" src="img/portfolio/portfolio-img-1.jpg" alt="image">
+                        <img class="thumbnail margin-bottom-40" src="img/portfolio/portfolio-img-2.jpg" alt="image">
                       </div>
                       <div class="col-md-8 margin-bottom-20">
                         <h1 class="no-margin-top">Portfolio Single Item</h1>
@@ -212,7 +204,7 @@
                           <li>Client: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">MockCo INC</a></strong></li>
                           <li>Date: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">18 may, 2015</a></strong></li>
                           <li>Service: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">Photography</a></strong></li>
-                          <li>Copyright ©2014, All Rights Reserved</li>
+
                         </ul>
                         <a href="#" target="_blank" class="btn btn-danger btn-rounded btn-lg margin-top-40">Launch Project</a>
                       </div>
@@ -230,10 +222,8 @@
                                 <div class="box-inner">
                                     <a href="#portfolio-2" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-2.jpg" alt="image">
-                                    <div class="caption align-center">
-                                        <img src="img/portfolio/caption-img/2.png" alt="image">
-                                    </div>
+                                    <img class="thumbnail" src="img/portfolio/portfolio-img-1.jpg" alt="image">
+
                                     <h3 class="entry-count"># 02</h3>
                                 </div>
 
@@ -242,39 +232,8 @@
                   <div class="inline-popup-inner">
                     <div class="row">
                       <div class="col-md-12">
-
-                        <!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-                                ============================
-                                * Available carousel data attributes:
-                                    data-items="1".......................(items visible on desktop)
-                                    data-items-mobile-portrait="1".......(items visible on mobiles)
-                                    data-items-mobile-landscape="1"......(items visible on mobiles)
-                                    data-items-tablet="1"................(items visible on tablets)
-                                    data-loop="true".....................(true/false)
-                                    data-margin="10".....................(space between items)
-                                    data-center="false"..................(true/false)
-                                    data-start-position="0"..............(item start position)
-                                    data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-                                    data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-                                    data-mouse-drag="true"...............(true/false)
-                                    data-autoheight="false"..............(true/false)
-                                    data-autoplay="true".................(true/false)
-                                    data-autoplay-timeout="5000".........(milliseconds)
-                                    data-autoplay-hover-pause="true".....(true/false)
-                                    data-autoplay-speed="800"............(milliseconds)
-                                    data-nav="true"......................(true/false)
-                                    data-nav-speed="800".................(milliseconds)
-                                    data-dots="true".....................(true/false)
-                                    data-dots-speed="800"................(milliseconds)
-                                -->
-                                <div class="owl-carousel margin-bottom-50" data-items="1" data-loop="true" data-dots="true" data-dots-speed="600" data-nav="true" data-nav-speed="600">
-
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-2.jpg" alt="image">
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-3.jpg" alt="image">
-                                    <img class="thumbnail" src="img/portfolio/portfolio-img-4.jpg" alt="image">
-
-                                </div>
-                                <!-- End content carousel -->
+                          <img class="thumbnail margin-bottom-40" src="img/portfolio/portfolio-img-2.jpg" alt="image">
+                              
 
                       </div>
                       <div class="col-md-8 margin-bottom-20">
@@ -287,7 +246,7 @@
                           <li>Client: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">MockCo INC</a></strong></li>
                           <li>Date: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">18 may, 2015</a></strong></li>
                           <li>Service: <strong><a href="https://shapebootstrap.net/profile/Themetorium/items" target="_blank">Carousel</a></strong></li>
-                          <li>Copyright ©2014, All Rights Reserved</li>
+
                         </ul>
                         <a href="#" target="_blank" class="btn btn-danger btn-rounded btn-lg margin-top-40">Launch Project</a>
                       </div>
@@ -306,9 +265,7 @@
                                     <a href="#portfolio-3" class="portfolio-link inline-popup-trigger"></a>
                                     <div class="cover"></div>
                                     <img class="thumbnail" src="img/portfolio/portfolio-img-3.jpg" alt="image">
-                                    <div class="caption align-center">
-                                        <img src="img/portfolio/caption-img/3.png" alt="image">
-                                    </div>
+
                                     <h3 class="entry-count"># 03</h3>
                                 </div>
 
