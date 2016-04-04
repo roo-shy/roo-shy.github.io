@@ -770,8 +770,8 @@ section .container {
 }
 
 /* portfolio grid box cover */
-.portfolio .box .cover {
-	background-color: rgba(0, 0, 0, 0.6);
+.portfolio .box-1 .cover {
+	background-color: rgba(255, 0, 0, 0.75);
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -780,8 +780,10 @@ section .container {
 }
 
 /* portfolio grid box cover hover bg colors */
-.portfolio .box-1:hover .cover { background-color: rgba(255, 0, 0, 0.8); }
-.portfolio .box-2:hover .cover { background-color: rgba(255, 213, 0, 0.8); }
+.portfolio .box-1 .cover { background-color: rgba(255, 0, 0, 0.8); }
+-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+.portfolio .box-2 .cover { background-color: rgba(255, 213, 0, 0.8); }
 .portfolio .box-3:hover .cover { background-color: rgba(141, 203, 11, 0.8); }
 .portfolio .box-4:hover .cover { background-color: rgba(0, 197, 255, 0.8); }
 .portfolio .box-5:hover .cover { background-color: rgba(229, 0, 255, 0.8); }
