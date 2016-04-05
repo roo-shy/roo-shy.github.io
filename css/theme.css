@@ -140,7 +140,7 @@ hr {
 	}
 }
 @keyframes scaleout {
-	0% { 
+	0% {
 		transform: scale(0.0);
 		-webkit-transform: scale(0.0);
 	} 100% {
@@ -287,7 +287,6 @@ hr {
 section {
 	position: relative;
 	background-color: #FFF;
-	padding: 80px 0;
 	overflow: hidden;
 }
 section .container {
@@ -765,7 +764,7 @@ section .container {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 400px;
 	z-index: 3;
 }
 
@@ -775,8 +774,8 @@ section .container {
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.portfolio .box:hover .cover { 
-	background-color: rgba(255, 0, 0, 0.75); 
+.portfolio .box:hover .cover {
+	background-color: rgba(255, 0, 0, 0.75);
 }
 
 /* portfolio grid box cover hover bg colors */
@@ -875,7 +874,7 @@ img.mfp-img {
 }
 
 /* fade in navication */
-.mfp-fadein .mfp-figure { 
+.mfp-fadein .mfp-figure {
 	-webkit-animation-name: fadeIn;
 	-moz-animation-name: fadeIn;
 	-o-animation-name: fadeIn;
@@ -892,19 +891,19 @@ img.mfp-img {
   -ms-backface-visibility: hidden;
 }
 @-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @-moz-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @-o-keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 @keyframes fadeIn {
-	0% {opacity: 0;}	
+	0% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
@@ -922,7 +921,7 @@ img.mfp-img {
 }
 
 
-/* Inline popup (type inline) 
+/* Inline popup (type inline)
 ------------------------------- */
 .inline-popup {
 	position: relative;
@@ -953,44 +952,44 @@ img.mfp-img {
 /* start state */
 .mfp-fade-zoom .inline-popup {
 	opacity: 0;
-	-webkit-transition: all 0.4s ease-in-out; 
-	-moz-transition: all 0.4s ease-in-out; 
-	-o-transition: all 0.4s ease-in-out; 
-	transition: all 0.4s ease-in-out; 
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 
-	-webkit-transform: scale(0.8); 
-	-moz-transform: scale(0.8); 
-	-ms-transform: scale(0.8); 
-	-o-transform: scale(0.8); 
-	transform: scale(0.8); 
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 /* animate in */
 .mfp-fade-zoom.mfp-ready .inline-popup {
 	opacity: 1;
-	-webkit-transform: scale(1); 
-	-moz-transform: scale(1); 
-	-ms-transform: scale(1); 
-	-o-transform: scale(1); 
-	transform: scale(1); 
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
 }
 
 /* animate out */
 .mfp-fade-zoom.mfp-removing .inline-popup {
 	opacity: 0;
-	-webkit-transform: scale(0.8); 
-	-moz-transform: scale(0.8); 
-	-ms-transform: scale(0.8); 
-	-o-transform: scale(0.8); 
-	transform: scale(0.8); 
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 /* Dark overlay, start state */
 .mfp-fade-zoom.mfp-bg {
 	opacity: 0;
-	-webkit-transition: opacity 0.3s ease-out; 
-	-moz-transition: opacity 0.3s ease-out; 
-	-o-transition: opacity 0.3s ease-out; 
+	-webkit-transition: opacity 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out;
 	transition: opacity 0.3s ease-out;
 }
 /* animate in */
@@ -1264,9 +1263,9 @@ img.mfp-img {
 .clients .client-logo img {
 	max-width: 183px;
 	margin: 0 auto;
-	-webkit-transition: all 0.2s ease-in-out; 
-	-moz-transition: all 0.2s ease-in-out; 
-	-o-transition: all 0.2s ease-in-out; 
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 .clients .client-logo img:hover {
