@@ -40,6 +40,13 @@ html, body {
 	padding: 0;
 	margin: 0;
 }
+
+.fa {
+  color:#FFFFFF;
+  font-size: 25px;
+
+}
+
 body {
 	background-color: #FFF;
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
