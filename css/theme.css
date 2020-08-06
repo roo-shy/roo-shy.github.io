@@ -58,10 +58,10 @@ body {
 }
 a {
 	font-weight: normal;
-	color: #F20000;
+	color: #FFF;
 }
 a:hover, a:focus {
-	color: #F20000;
+	color: #FFF;
 	text-decoration: underline;
 }
 a:focus {
