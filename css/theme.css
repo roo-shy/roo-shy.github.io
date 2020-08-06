@@ -677,7 +677,7 @@ section .container {
 .work {
 }
 .work .cover {
-	background-color: rgba(0, 0, 0, 0.89);
+	background-color: rgba(0, 0, 0, 0.69);
 }
 .work .row {
 	position: relative;
